@@ -1,0 +1,12 @@
+server:
+  port: 19092
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/msa_practice
+    username: root
+    password: ewqDSA19@&
+  jpa:
+    hibernate:
+      ddl-auto: create

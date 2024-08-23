@@ -1,0 +1,29 @@
+server:
+  port: 0
+
+spring:
+  config:
+    import: "configserver:"
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server
+  application:
+    name: gateway-service
+  main:
+    web-application-type: reactive
+  profiles:
+    active: dev
+
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:19090/eureka
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG

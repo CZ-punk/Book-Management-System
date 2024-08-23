@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth.main.iml" filepath="$PROJECT_DIR$/.idea/modules/auth.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/book-management-system.iml" filepath="$PROJECT_DIR$/.idea/book-management-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/book.main.iml" filepath="$PROJECT_DIR$/.idea/modules/book.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config.main.iml" filepath="$PROJECT_DIR$/.idea/modules/config.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/review.main.iml" filepath="$PROJECT_DIR$/.idea/modules/review.main.iml" />
+    </modules>
+  </component>
+</project>
